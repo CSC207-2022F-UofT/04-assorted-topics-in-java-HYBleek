@@ -20,6 +20,7 @@ public class DrivableMapTest {
         assertTrue(dm.addDrivable("Name2", h));
     }
 
+
     @Test(timeout = 50)
     public void testHasFasterThan() {
         Horse h = new Horse();
